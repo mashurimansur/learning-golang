@@ -4,7 +4,7 @@ import "fmt"
 
 import "strconv"
 
-func main()  {
+func main() {
 	var x int32 = 10
 	var y int64 = int64(x)
 	fmt.Println(y)
@@ -18,4 +18,9 @@ func main()  {
 
 	nilaiString := strconv.Itoa(nilaiInt)
 	fmt.Println(nilaiString)
+
+	var name = "Hury"
+	var h = name[0]
+	var hString = string(h)
+	fmt.Println(hString)
 }

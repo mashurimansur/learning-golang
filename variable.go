@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 	//Kalau menggunakan var, varible nya bisa di fanti nilainya
 	var name string = "Hury"
 	fmt.Println(name)
@@ -17,4 +17,11 @@ func main()  {
 	//const, adalah sebuaah variable yang tidak bisa diganti nulaunya apbila sudah ditentukan sebelumnya
 	const company string = "Docotel"
 	fmt.Println(company)
+
+	var (
+		firstName = "Hury"
+		lastName  = "Mansur"
+	)
+
+	fmt.Println(firstName, lastName)
 }
