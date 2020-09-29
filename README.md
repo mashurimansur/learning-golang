@@ -102,3 +102,11 @@
 8. Package container/list
     * package container/list adalah implementasi struktur data double linked list di golang
     * https://golang.org/pkg/container/list/
+9. Package container/ring
+    * package container/ring adalah implementasi struktur data circular list
+    * circular list adalah struktur data ring, dimana diakhir element akan kembali ke element awal (HEAD)
+    * https://golang.org/pkg/container/ring/
+10. Package sort
+    * package sort adalah package yang berisikan utilitas untuk proses pengurutan
+    * agar data kita bisa diurutkan, kita harus mengimplementasikan kontrak di interface sort.Interface
+    * https://golang.org/pkg/sort/
