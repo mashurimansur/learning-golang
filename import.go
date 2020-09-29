@@ -8,4 +8,6 @@ import (
 func main() {
 	say := helper.SayHello("Hury")
 	fmt.Println(say)
+
+	fmt.Println(helper.Application)
 }
