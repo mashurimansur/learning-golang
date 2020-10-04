@@ -38,7 +38,7 @@
     * packge flag berisikan fungsionalitas untuk meparsing command line argument
     * https://golang.org/pkg/flag/
 3. Package strings
-    * package strings adalah package yang berisikan function-function untuk memanipulasi tipe data string
+    * package strings adalah package yang berisikan function-function untuk memanipulasi tipe data string 
     * ada banyak sekali function yang bisa kita gunakan
     * https://golang.org/pkg/strings/
     * beberapa function di package strings
@@ -111,3 +111,7 @@
     * agar data kita bisa diurutkan, kita harus mengimplementasikan kontrak di interface sort.Interface
     * https://golang.org/pkg/sort/
 11. Package replect
+    * dalam bahasa pemrograman, biasanya ada fitur replection, dimana kita melihat struktur kode kita pada saat aplikasi sedang berjalan
+    * hal ini bisa dilakukan di golang dengan menggunakan package replect
+    * replection sangat berguna ketika kita ingin membuat library yang general sehingga mudah digunakan
+    * https://golang.org/pkg/reflect/
