@@ -14,4 +14,13 @@ func main() {
 
 	parse, _ := time.Parse(time.RFC3339, "2006-01-02T15:04:05Z")
 	fmt.Println(parse)
+
+	fmt.Println("start")
+	time.Sleep(time.Second * 4)
+	fmt.Println("end")
+
+	var timer = time.NewTimer(4 * time.Second)
+	fmt.Println("start")
+	<-timer.C
+	fmt.Println("end")
 }
